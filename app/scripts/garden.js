@@ -61,9 +61,9 @@ $(function() {
   };
   map = new google.maps.Map(document.getElementById("map"), mapOptions);
   
-  google.maps.event.addListener(map, 'click', function() {
-        infowindow.close();
-        });
+  // google.maps.event.addListener(map, 'click', function() {
+  //       infowindow.close();
+  //       });
   for (var i = 0; i < markers.length; i++) {
     // obtain the attribues of each marker
     var lat = markers[i].lat;

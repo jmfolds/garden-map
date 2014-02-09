@@ -102,7 +102,7 @@ body {
     }
     #header  {
         background-color: black;
-        background-image: url('../images/map_header.jpg');
+        background-image: url('/images/map_header.jpg');
         background-repeat: no-repeat;
         border: none;
         height: 122px;
@@ -112,7 +112,7 @@ body {
     }
     #header2 {
         background-color: black;
-        background-image: url('../images/gardenHeader2.jpg');
+        background-image: url('/images/gardenHeader2.jpg');
         background-repeat: no-repeat;
         border: none;
         height: 200px;
@@ -161,7 +161,7 @@ body {
         color: grey;
         margin: 0 auto;
         width:1000px;
-        background-image: url('../images/sports_management_footer.jpg');
+        background-image: url('/images/sports_management_footer.jpg');
         background-repeat: repeat-x;
         font-size:8px;
         overflow: hidden
