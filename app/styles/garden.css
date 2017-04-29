@@ -1,9 +1,13 @@
 @charset "utf-8";
+html,body {
+	height: 100%;
+	width: 100%;
+}
 
 body {
 	font-family:Arial, Helvetica, Verdana, Sans-serif;
 	font-size:12px;
-	background-color:#cfcaa8;
+	/*background-color:#cfcaa8;*/
 }
 #uccs_background {
 	margin:0 auto;
@@ -35,7 +39,6 @@ body {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-}
 }
 #infoContainer {
 	margin-left:10px;
